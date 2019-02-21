@@ -1,0 +1,64 @@
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+
+body {
+  color: black;
+  font-family: kaushan;
+  text-align: center;
+  
+
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.container-fluid{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#banner{
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.centered{
+  color:black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
